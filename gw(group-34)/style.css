@@ -12,7 +12,10 @@
 }
 
 .navbar h1 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: -10px;
 }
 
 .navbar h1 span {
@@ -28,119 +31,47 @@
     border: 3px solid black;
 }
 
-.first-box {
-    width: 395px;
-    height: 395px;
-    background-color: red;
-    box-shadow: -5px -5px 5px red;
-    border-radius: 8px;
-}
-.second-box {
-    width: 395px;
-    height: 395px;
-    background-color: yellow;
-    margin-top: 120px;
-    box-shadow: -5px -5px 5px yellow;
-    border-radius: 8px;
-}
-.third-box {
-    width: 395px;
-    height: 395px;
-    background-color: green;
-    margin-top: 185px;
-    box-shadow: -5px -5px 5px green;
-    border-radius: 8px;
-}
-
-
-
 .main-container {
     display: flex;
     justify-content: space-around;
-
-    padding-top: 155px;
 }
 
 .container-of-to-do-list {
     position: absolute;
-    top: 50rem;
-    left: 35rem;
+    top: 10rem;
+    left: 40rem;
 
     width: 300px;
-    height: 375px;
-    background-color: blue;
+    height: 155px;
     border-radius: 10px;
-    padding-left: 100px;
-    padding-top: 12px;
-    box-shadow: -5px -5px 5px blue;
+    padding-left: 30px;
+    padding-top: 25px;
 }
 
 i {
-    color: white;
+    color: gray;
+    font-size: 25px;
 }
 
 i:hover {
     border: 3px solid black;
     border-radius: 5px;
+    cursor: pointer;
 }
 .inputt {
     border-radius: 5px;
-    background-color: black;
-    color: red;
+    background-color: gray;
+    color: white;
 }
 
 ul {
-    color: aqua;
+    color: black;
 }
 
 ::placeholder {
     color: white;
 }
 
-.photo {
-    background-image: url(boxlogos/first.png);
-    width: 165px;
-    height: 165px;
-    border-radius: 50%;
-    background-size: cover;
-    margin-left: 105px;
-    margin-top: 5px;
-}
-
-.txt {
-    color: white;
-    margin-left: -2px;
-    padding-top: 20px;
-}
-
-.photo-second {
-    background-image: url(boxlogos/second.png);
-    width: 165px;
-    height: 165px;
-    border-radius: 50%;
-    background-size: cover;
-    margin-left: 105px;
-    margin-top: 5px;
-}
-
-.text-second {
-    color: black;
-    margin-left: 5px;
-    padding-top: 20px;
-}
-
-.photo-third {
-    background-image: url(boxlogos/third.png);
-    width: 165px;
-    height: 165px;
-    border-radius: 50%;
-    background-size: cover;
-    margin-left: 105px;
-    margin-top: 5px;
-}
-
-.text-third {
-    color: black;
-    margin-left: 5px;
-    padding-top: 20px;
+h1 {
+    font-family: sans-serif;
 }

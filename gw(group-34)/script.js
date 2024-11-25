@@ -2,29 +2,23 @@ const light = document.getElementById("light-mode");
 const night = document.getElementById("dark-mode");
 const allButton = document.getElementsByName("button")
 const navbar = document.getElementById("nvb");
-const firstBox = document.getElementById("frstbox");
-const secondBox = document.getElementById("secondbox");
-const thirdBox = document.getElementById("thirdbox")
-const lastBox = document.getElementById("listn");
+const ull2 = document.getElementById("ull");
+const h1c = document.getElementById("h1-cont")
 
 
 night.addEventListener("click",function(){
     document.body.style.backgroundColor = 'black';
     navbar.style.backgroundColor = 'gray';
-    firstBox.style.backgroundColor = 'rgb(223, 21, 21)';
-    secondBox.style.backgroundColor = 'rgb(227, 227, 26)';
-    thirdBox.style.backgroundColor = 'rgb(30, 172, 30)';
-    lastBox.style.backgroundColor = 'rgb(20, 50, 200)'
+    ull2.style.color = 'white';
+    h1c.style.color = 'white';
 });
 
 
 light.addEventListener("click",function(){
     document.body.style.backgroundColor = 'white';
     navbar.style.backgroundColor = 'lightgreen';
-    firstBox.style.backgroundColor = 'red';
-    secondBox.style.backgroundColor = 'yellow';
-    thirdBox.style.backgroundColor = 'green';
-    lastBox.style.backgroundColor = 'blue';
+    ull2.style.color = 'black';
+    h1c.style.color = 'black';
 });
 
 // rgb(223, 21, 21)
